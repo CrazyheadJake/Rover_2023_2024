@@ -1,4 +1,21 @@
 #!/usr/bin/env python
+
+#####################################
+# Node Information        
+#####################################
+# 
+# Name: effectors
+#
+# Subscribed to:
+# - gripper/control (GripperControlMessage)
+# - mining/control/compartment (MiningControlMessage)
+# - mining/control/linear (MiningControlMessage)
+# - mining/drill/control (DrillControlMessage)
+# 
+# Publishes to: 
+# - gripper/status (GripperStatusMessage)
+#
+
 #####################################
 # Imports
 #####################################

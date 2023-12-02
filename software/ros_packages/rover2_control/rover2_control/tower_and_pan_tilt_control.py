@@ -1,4 +1,19 @@
 #!/usr/bin/env python
+
+#####################################
+# Node Information        
+#####################################
+# 
+# Name: tower_and_pan_tilt
+#
+# Subscribed to:
+# - tower/pan_tilt/control (TowerPanTiltControlMessage)
+# - tower/light/control (UInt8)
+# 
+# Publishes to: 
+# - tower/status/co2 (UInt16)
+#
+
 #####################################
 # Imports
 #####################################

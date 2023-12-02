@@ -1,4 +1,21 @@
 #!/usr/bin/env python
+
+#####################################
+# Node Information        
+#####################################
+# 
+# Name: drive_coordinator
+#
+# Subscribed to:
+# - command_control/iris_drive (DriveCommandMessage)
+# - command_control/ground_station_drive (DriveCommandMessage)
+# 
+# Publishes to: 
+# - drive_control/left (DriveControlMessage)
+# - drive_control/right (DriveControlMessage)
+# - drive_control/rear (DriveControlMessage)
+# 
+
 #####################################
 # Imports
 #####################################

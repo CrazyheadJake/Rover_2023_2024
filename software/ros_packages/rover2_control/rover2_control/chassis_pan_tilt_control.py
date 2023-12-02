@@ -1,5 +1,18 @@
 #!/usr/bin/env python
+
 #####################################
+# Node Information        
+#####################################
+# 
+# Name: chassis_pan_tilt
+#
+# Subscribed to:
+# - chassis/pan_tilt/control (TowerPanTiltControlMessage)
+# 
+# Publishes to: 
+# 
+
+######################################
 # Imports
 #####################################
 # Python native imports

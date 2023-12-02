@@ -1,4 +1,17 @@
 #!/usr/bin/env python
+
+#####################################
+# Node Information        
+#####################################
+# 
+# Name: gps_and_imu
+#
+# Subscribed to:
+# 
+# Publishes to: 
+# - gps/sentence (Sentence)
+#
+
 #####################################
 # Imports
 #####################################

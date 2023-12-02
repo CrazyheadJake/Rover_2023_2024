@@ -1,3 +1,16 @@
+/*
+Node Information        
+
+Names: navigation, chassis
+
+Subscribed to:
+- cameras/main_navigation/camera_control (CameraControlMessage)
+ 
+Publishes to: 
+- cameras/main_navigation/image_256x144 (ImageTransport [not ROS])
+- cameras/main_navigation/image_640x360 (ImageTransport [not ROS])
+*/
+
 #include <cstdio>
 #include "rclcpp/rclcpp.hpp"
 #include "rover2_camera_interface/msg/camera_control_message.hpp"
@@ -7,6 +20,7 @@
 #include <opencv2/opencv.hpp>
 #include <cv_bridge/cv_bridge.h>
 using std::placeholders::_1;
+
 
 // Useful info
 // RTSP stream is 704x480

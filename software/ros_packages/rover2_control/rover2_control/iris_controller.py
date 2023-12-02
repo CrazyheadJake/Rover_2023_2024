@@ -1,4 +1,18 @@
 #!/usr/bin/env python
+
+#####################################
+# Node Information        
+#####################################
+# 
+# Name: iris_controller
+#
+# Subscribed to:
+# 
+# Publishes to: 
+# - iris_status (IrisStatusMessage)
+# - command_control/iris_drive (DriveCommandMessage)
+#
+
 #####################################
 # Imports
 #####################################

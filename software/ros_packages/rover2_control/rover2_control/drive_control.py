@@ -1,4 +1,17 @@
 #!/usr/bin/env python
+
+#####################################
+# Node Information        
+#####################################
+# 
+# Names: rear_bogie, left_bogie, right_bogie
+#
+# Subscribed to:
+# - drive_control/rear (DriveControlMessage)
+# 
+# Publishes to: 
+# - drive_status/rear (DriveStatusMessage)
+
 #####################################
 # Imports
 #####################################

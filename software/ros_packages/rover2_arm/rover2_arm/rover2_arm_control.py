@@ -1,3 +1,16 @@
+#####################################
+# Node Information        
+#####################################
+# 
+# Name: rover_arm
+#
+# Subscribed to:
+# - control/relative (ArmControlMessage)
+# 
+# Publishes to: 
+# - [COMMENTED OUT] status (ArmStatusMessage)
+#
+
 from ctypes import *
 import rclpy
 from rclpy.node import Node

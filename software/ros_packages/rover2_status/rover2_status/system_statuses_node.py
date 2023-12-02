@@ -1,4 +1,30 @@
 #!/usr/bin/env python
+
+#####################################
+# Node Information        
+#####################################
+# 
+# Name: rover_status
+#
+# Subscribed to:
+# - update_requested (Empty)
+# - /rover_control/iris_status (IrisStatusMessage)
+# - /rover_control/drive_status/left (DriveStatusMessage)
+# - /rover_control/drive_status/right (DriveStatusMessage)
+# - /rover_control/drive_status/rear (DriveStatusMessage)
+# - /rover_odometry/gps/sentence (Sentence)
+# - /rover_control/command_control/iris_drive (DriveCommandMessage)
+#
+# Publishes to:
+# - battery_status (BatteryStatusMessage)
+# - camera_status (CameraStatuses)
+# - wheel_status (WheelStatuses)
+# - frsky_status (FrSkyStatus)
+# - gps_status (GPSInfo)
+# - jetson_status (JetsonInfo)
+# - misc_status (MiscStatuses)
+#
+
 #####################################
 # Imports
 #####################################
@@ -28,7 +54,7 @@ DEFAULT_GPS_TOPIC_NAME = "gps_status"
 DEFAULT_JETSON_TOPIC_NAME = "jetson_status"
 DEFAULT_MISC_TOPIC_NAME = "misc_status"
 ##############created motor_status topic
-DEFAULT_MOTOR_TOPIC_NAME = "motor_status"
+# DEFAULT_MOTOR_TOPIC_NAME = "motor_status"
 ##############16 Feb 2019
 MAX_JETSON_UPDATE_HERTZ = 0.2
 MAX_IRIS_UPDATE_HERTZ = 0.2
